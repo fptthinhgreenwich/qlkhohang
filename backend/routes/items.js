@@ -12,7 +12,7 @@ router.get('/', async (req, res) => {
       status = '',
       page = 1,
       pageSize = 10,
-      sort = 'updatedAt',
+      sort = 'createdAt',
       order = 'desc'
     } = req.query;
 

@@ -1,6 +1,6 @@
 const API_BASE = 'http://localhost:5000/api/items';
 
-export async function fetchItems({ search = '', status = '', page = 1, pageSize = 10, sort = 'updatedAt', order = 'desc' } = {}) {
+export async function fetchItems({ search = '', status = '', page = 1, pageSize = 10, sort = 'createdAt', order = 'desc' } = {}) {
   const params = new URLSearchParams({
     search,
     status,
